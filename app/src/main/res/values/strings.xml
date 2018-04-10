@@ -3,4 +3,8 @@
     <string name="what_do_you_want_to_do">What do you want to do?</string>
     <string name="translate_to">TRANSLATE TO</string>
     <string name="translate_from">TRANSLATE FROM</string>
+    <string name="text_to_translate">Text to translate</string>
+    <string name="android">Android</string>
+    <string name="translate">Translate</string>
+    <string name="translated_text">Translated text</string>
 </resources>
