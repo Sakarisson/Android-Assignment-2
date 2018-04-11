@@ -28,12 +28,12 @@ abstract public class TranslateActivity extends AppCompatActivity {
         translateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String inputText = editText.getText().toString();
-                if (inputText.equals("")) {
-                    Toast.makeText(getApplicationContext(), "There is nothing to translate", Toast.LENGTH_SHORT).show();
-                }
-                String translated = translate(inputText);
-                translatedText.append(translated + "\n");
+            String inputText = editText.getText().toString();
+            if (inputText.equals("")) {
+                Toast.makeText(getApplicationContext(), "There is nothing to translate", Toast.LENGTH_SHORT).show();
+            }
+            String translated = translate(inputText);
+            translatedText.append(translated + "\n");
             }
         });
     }
