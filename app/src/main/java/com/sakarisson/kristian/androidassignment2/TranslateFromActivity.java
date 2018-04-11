@@ -7,6 +7,6 @@ public class TranslateFromActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.translate_from);
+        setContentView(R.layout.translate_portrait);
     }
 }

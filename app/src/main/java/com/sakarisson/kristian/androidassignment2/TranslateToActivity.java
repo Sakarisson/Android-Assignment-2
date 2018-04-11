@@ -18,7 +18,7 @@ public class TranslateToActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.translate_to);
+        setContentView(R.layout.translate_portrait);
 
         editText = findViewById(R.id.editText);
         translateButton = findViewById(R.id.translateButton);
